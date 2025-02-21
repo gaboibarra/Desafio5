@@ -47,5 +47,16 @@ Hacer clic en Crear VPC y validar los componentes creados.
   - 0.0.0.0/0 → Internet Gateway (para permitir tráfico de internet en la subred pública).
 3. Asignar la misma tabla de enrutamiento a ambas subredes.
 
-
+## 🛢️ 6. Crear la Instancia de Base de Datos (RDS)
+1. Acceder a AWS RDS.
+2. Seleccionar Crear Base de Datos → Creación estándar.
+3. Elegir:
+  - Motor: MariaDB
+  - Capa gratuita (para evitar costos).
+  - Nombre del usuario administrador y contraseña segura.
+4. En Configuración de conectividad:
+  - VPC: tutorial-vpc
+  - Grupo de subredes: tutorial-db-subnet-group
+  - Acceso público: Sí
+5. Validar la creación de la BD y guardar el endpoint.
 
