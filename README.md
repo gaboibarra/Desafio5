@@ -25,7 +25,13 @@ Antes de comenzar, asegúrate de tener acceso a una cuenta de AWS con permisos s
   - Subred pública IPv4 CIDR: 10.0.0.0/24
 Hacer clic en Crear VPC y validar los componentes creados.
 
-
+## 📡 3. Configurar Subredes
+1. Ir al menú Subredes en la consola de VPC.
+2. En ID de la VPC, seleccionar la VPC creada previamente.
+3. Crear dos subredes:
+  - Subred Pública (10.0.0.0/24)
+  - Subred Privada (10.0.2.0/24)
+4. Validar la creación de ambas subredes.
 
 
 
