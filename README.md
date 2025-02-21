@@ -71,6 +71,17 @@ Desde CloudShell o un Cliente MySQL:
 ```bash
 mariadb -h database-1.xxxxxxxx.us-east-1.rds.amazonaws.com -u adminuser -p
 ```
+# Desde una aplicación:
+  - Host: <endpoint de RDS>
+  - Usuario: adminuser
+  - Contraseña: ********
+  - Puerto: 3306
+  - Base de Datos: mariadb
+
+## 📜 Diagrama de Arquitectura
+![image](https://github.com/user-attachments/assets/93b676e5-003f-4612-aee0-136a530ed7a6)
+
+
 
 
 
