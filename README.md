@@ -65,3 +65,13 @@ Hacer clic en Crear VPC y validar los componentes creados.
 2. Crear un Internet Gateway (IGW) y asociarlo a la VPC.
 3. En Tablas de Enrutamiento, agregar la ruta 0.0.0.0/0 → IGW para permitir acceso público.
 
+## 🔗 8. Conectarse a la Base de Datos
+Desde CloudShell o un Cliente MySQL:
+
+```bash
+mariadb -h database-1.xxxxxxxx.us-east-1.rds.amazonaws.com -u adminuser -p
+```
+
+
+
+
