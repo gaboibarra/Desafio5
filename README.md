@@ -81,6 +81,11 @@ mariadb -h database-1.xxxxxxxx.us-east-1.rds.amazonaws.com -u adminuser -p
 ## 📜 Diagrama de Arquitectura
 ![image](https://github.com/user-attachments/assets/93b676e5-003f-4612-aee0-136a530ed7a6)
 
+## 🛠️ Consideraciones Finales
+✅ Seguridad: Restringe el acceso público y permite solo conexiones desde IPs seguras.
+✅ Monitoreo: Usa CloudWatch para monitorear logs y métricas.
+✅ Escalabilidad: Considera Auto Scaling y Multi-AZ para producción.
+
 
 
 
