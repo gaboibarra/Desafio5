@@ -41,7 +41,11 @@ Hacer clic en Crear VPC y validar los componentes creados.
   - SSH - TCP 22 - Origen: 0.0.0.0/0 (solo si accedes vía SSH).
 4. Guardar los cambios.
 
-
+## 📡 5. Configurar las Tablas de Enrutamiento
+1. En VPC → Tablas de Enrutamiento, seleccionar la tabla de enrutamiento de la VPC.
+2. Editar las rutas y agregar:
+  - 0.0.0.0/0 → Internet Gateway (para permitir tráfico de internet en la subred pública).
+3. Asignar la misma tabla de enrutamiento a ambas subredes.
 
 
 
