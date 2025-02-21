@@ -16,6 +16,14 @@ Antes de comenzar, asegúrate de tener acceso a una cuenta de AWS con permisos s
 7. Revisar los detalles y confirmar la creación.
 8. Guardar las credenciales en un lugar seguro.
 
+## 🌐 2. Crear una VPC
+1. Acceder a la consola de AWS VPC.
+2. Seleccionar VPC y más e ingresar los datos de la VPC:
+  - IPv4 CIDR block: 10.0.0.0/16
+  - IPv6 CIDR block: No IPv6
+  - Nombre de la VPC: tutorial-vpc
+  - Subred pública IPv4 CIDR: 10.0.0.0/24
+Hacer clic en Crear VPC y validar los componentes creados.
 
 
 
