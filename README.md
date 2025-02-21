@@ -3,9 +3,9 @@
 Este documento detalla los pasos para crear un entorno de desarrollo en AWS con EC2, VPC, y RDS, incluyendo configuración de seguridad, subredes y conectividad.
 
 **📌 Requisitos**
-Antes de comenzar, asegúrate de tener acceso a una cuenta de AWS con permisos suficientes para administrar recursos como IAM, VPC, EC2 y RDS.
+Antes de comenzar, asegúrate de tener acceso a una cuenta de AWS con permisos suficientes para administrar recursos como ***IAM, VPC, EC2 y RDS***.
 
-🔐 1. Crear un Usuario IAM con Permisos de Administrador
+🔐 **1. Crear un Usuario IAM con Permisos de Administrador**
 
 1. Acceder a la consola de AWS IAM.
 2. Ir a Personas y seleccionar Crear Persona.
