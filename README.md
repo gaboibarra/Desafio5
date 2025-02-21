@@ -33,6 +33,14 @@ Hacer clic en Crear VPC y validar los componentes creados.
   - Subred Privada (10.0.2.0/24)
 4. Validar la creación de ambas subredes.
 
+## 🔒 4. Configurar el Security Group
+1. En VPC → Grupos de Seguridad, seleccionar el Security Group asociado a la VPC.
+2. Ir a Reglas de entrada → Editar reglas.
+3. Agregar las siguientes reglas:
+  - MYSQL/Aurora - TCP 3306 - Origen: 0.0.0.0/0 (o IP específica para mayor seguridad).
+  - SSH - TCP 22 - Origen: 0.0.0.0/0 (solo si accedes vía SSH).
+4. Guardar los cambios.
+
 
 
 
